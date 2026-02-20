@@ -4,7 +4,7 @@
 2. Added logging, configuration via YAML and did 2 units with pytest
 3. Created one feature branch, pull request to merge the feature branch with main branch
 4. As I have used windows task scheduler is available to schedule daily run sample etl with Financial transcations dataset
-5. Produced dated output in putput folder
+5. Produced dated output in output folder
 
 ---
 
