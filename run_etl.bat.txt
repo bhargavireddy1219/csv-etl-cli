@@ -1,0 +1,4 @@
+@echo off
+cd C:\dev\csv-etl-cli
+call venv\Scripts\activate
+etl --input sample_data\input.csv --output outputs\

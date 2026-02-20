@@ -2,7 +2,9 @@
 name = "etl"
 version = "0.1.0"
 description = "CSV ETL CLI Tool"
-authors = [{ name = "Bhargavi Reddy" }]
+authors = [
+    { name = "Bhargavi Reddy" }
+]
 dependencies = [
     "pandas",
     "pyarrow",
@@ -10,9 +12,12 @@ dependencies = [
 ]
 requires-python = ">=3.8"
 
+
 [project.optional-dependencies]
 dev = [
-    "pytest"
+    "pytest",
+    "black",
+    "ruff"
 ]
 
 [project.scripts]
